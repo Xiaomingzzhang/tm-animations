@@ -1,0 +1,38 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: 理论力学动画演示
+  numbered: False
+  chapters:
+   - file: contents/动画/运动学
+   - file: contents/动画/动力学
+
+# - caption: 一维自治系统
+#   numbered: True
+#   chapters:
+#    - file: contents/02-一维自治系统/notebooks
+#    - file: contents/02-一维自治系统/markdown-notebooks
+
+# - caption: 一维自治系统
+#   numbered: True
+#   chapters:
+#    - file: contents/02-一维自治系统/notebooks
+#    - file: contents/02-一维自治系统/markdown-notebooks
+
+# - caption: 线性微分方程
+#   chapters:
+#    - file: contents/02-linear_systems/notebooks
+#    - file: contents/02-linear_systems/markdown-notebooks
+
+# - caption: 平衡点的基本分叉
+#   chapters:
+#    - file: contents/02-linear_systems/notebooks
+#    - file: contents/02-linear_systems/markdown-notebooks
+
+# - caption: 平衡点的基本分叉
+#   chapters:
+#    - file: contents/02-linear_systems/notebooks
+#    - file: contents/02-linear_systems/markdown-notebooks
