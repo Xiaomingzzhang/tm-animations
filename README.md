@@ -1,2 +1,5 @@
-# NonlinearDynamics
- 非线性动力学课程网站链接: https://xiaomingzzhang.github.io/NonlinearDynamics/intro.html
+# 理论力学教学内容
+
+
+
+网址: https://xiaomingzzhang.github.io/tm-animations/intro.html#
