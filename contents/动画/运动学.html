@@ -355,7 +355,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -371,6 +373,22 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">参考体与运动轨迹</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">密切平面, 法平面</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">点的合成运动</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">基本概念</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">速度合成</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">加速度的合成</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">刚体平面运动</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -382,6 +400,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1>运动学<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="id2">
+<h2>参考体与运动轨迹<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>汽车轮缘一点以大地为参考体的轨迹</p></li>
 </ul>
@@ -390,19 +410,88 @@ document.write(`
   您的浏览器不支持视频播放。
 </video>
 <ul class="simple">
-<li><p>汽车轮缘一点以车厢为参考系的轨迹</p></li>
+<li><p>汽车轮缘一点以车厢为参考体的轨迹</p></li>
 </ul>
 <video width="640" controls>
   <source src="../../videos/Wheel_Car.mp4" type="video/mp4">
   您的浏览器不支持视频播放。
 </video>
+</section>
+<section id="id3">
+<h2>密切平面, 法平面<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>密切平面与法平面沿着螺旋线的运动</p></li>
 </ul>
 <video width="640" controls>
   <source src="../../videos/ThreeDCurveWithPlanes.mp4" type="video/mp4">
   您的浏览器不支持视频播放。
-</video></section>
+</video>
+</section>
+<section id="id4">
+<h2>点的合成运动<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
+<section id="id5">
+<h3>基本概念<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>绝对运动轨迹与相对运动轨迹 (动系与旋转的正方形固连)</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/ReAbMotions.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+<ul class="simple">
+<li><p>绝对运动轨迹与相对运动轨迹 (动系与地球固连, 静系为地心参考系, 其参考体为地心到三颗恒星的中心的三条不共面直线, 动画中先展示相对运动轨迹再展示绝对运动轨迹, 观察者始终与地心参考系固连在一起)</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/DotRelativeAndAbsoluteMotionOnEarth.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+<ul class="simple">
+<li><p>绝对运动轨迹与相对运动轨迹 (动系与地球固连, 静系为地心参考系, 其参考体为地心到三颗恒星的中心的三条不共面直线, 动画中先展示绝对运动轨迹再展示相对运动轨迹, 观察者先与地心参考系固连在一起, 再与地球固连在一起)</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/DotAbsoluteAndRelativeMotionOnEarth.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+<ul class="simple">
+<li><p>绝对位移, 相对位移与牵连位移 (动系与旋转的正方形固连)</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/ReAbDisplacements.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+</section>
+<section id="id6">
+<h3>速度合成<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>动系与旋转的正方形固连</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/ReAbVelocities.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+<ul class="simple">
+<li><p>动系与空心杆件固连</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/GanJian1VelocityComposite.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+<ul class="simple">
+<li><p>动系与空心杆件固连</p></li>
+</ul>
+<video width="640" controls>
+  <source src="../../videos/RollDiskWithRodVelocityComposite.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。
+</video>
+</section>
+<section id="id7">
+<h3>加速度的合成<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="id8">
+<h2>刚体平面运动<a class="headerlink" href="#id8" title="Link to this heading">#</a></h2>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -458,6 +547,29 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">参考体与运动轨迹</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">密切平面, 法平面</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">点的合成运动</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">基本概念</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">速度合成</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">加速度的合成</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">刚体平面运动</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
