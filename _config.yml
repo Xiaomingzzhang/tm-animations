@@ -4,7 +4,7 @@
 title: 理论力学教学补充
 author: 张晓明
 copyright: "2025"
-logo: logo.png
+logo: logo_1.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -25,6 +25,8 @@ parse:
 sphinx:
   config:
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    html_css_files:
+      - assets/custom.css
 
 
 # Define the name of the latex output file for PDF builds
