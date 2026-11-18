@@ -1,0 +1,11 @@
+.jb-video {
+  max-width: 900px;
+  margin: 1.5em auto;
+  aspect-ratio: 16 / 9;
+}
+
+.jb-video video {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
